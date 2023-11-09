@@ -4,7 +4,7 @@ onload = () => {
 }
 
 const range = (a, b) => {
-    result = [];
+    let result = [];
     if(b>a){
         do{
             result.push(a);
