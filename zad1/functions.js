@@ -1,8 +1,6 @@
-onload = ()=>{
-
+onload = () => {
     console.log(`isOdd(1) = ${isOdd(1)}`);
     console.log(`isEven(1) = ${isEven(1)}`);
-
 }
 
 function isOdd(x){
