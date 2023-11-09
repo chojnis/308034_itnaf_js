@@ -1,6 +1,8 @@
 onload = () => {
     console.log(palindrom('kajsak'));
     console.log(palindrom('kokok'));
+    console.log(palindrom2('kajak'));
+    console.log(palindrom2('kajask'));
 }
 
 const palindrom = (word) => {
@@ -12,4 +14,8 @@ const palindrom = (word) => {
         y--;
     }
     return true;
+}
+
+const palindrom2 = (word) => {
+    return word === word.split('').reverse().join('');
 }
